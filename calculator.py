@@ -14,7 +14,7 @@ if Operation == "e":
     print(pow(float(number1),float(number2)))
 if Operation == "*":
     print(float(number1)*float(number2))
-if Operation == "abs":
+if Operation == "sqrt":
     print( math.sqrt(float(number1)),",",math.sqrt(float(number2)))
 else:
     print("WRONG INPUT")
