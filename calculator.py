@@ -1,7 +1,7 @@
 import math
 
 number1 = input("Enter First number:")
-Operation = input("Enter Operation like + , - , /,e,* :")
+Operation = input("Enter Operation like + , - , /, e, *, mod :")
 number2 = input("Enter Second Number:")
 
 if Operation == "+":
@@ -14,5 +14,7 @@ if Operation == "e":
     print(pow(float(number1),float(number2)))
 if Operation == "*":
     print(float(number1)*float(number2))
+if Operation == "mod":
+    print(float(number1)%float(number2))
 else:
     print("WRONG INPUT")
